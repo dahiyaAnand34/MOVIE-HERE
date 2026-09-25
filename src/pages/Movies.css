@@ -1,0 +1,66 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.Movie-upper{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: rgb(12, 11, 12);
+}
+.movie-box{
+    height: 400px;
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    border-radius:20px 20px 5px 5px;
+    background-color: rgb(54, 52, 52);
+    margin: 20px;
+    flex-grow: 1;
+    flex-basis: 200;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    transition-delay: 10ms;
+
+    img{
+        height: 45%;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    #rating{
+        font-size: medium;
+        font-weight: bold;
+        color: rgb(255, 230, 4);
+    }
+
+    #about{
+        font-size: medium;
+        color: whitesmoke;
+        font-size:small;
+        font-weight: 700;
+    }
+    button{
+        height: 25px;
+        width: 150px;
+        color: black;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: whitesmoke;
+        font-size: medium;
+    }
+    button:hover{
+        background-color: rgb(176, 184, 190);
+    }
+}
+#popular{
+    font-size:large;
+    font-weight: bold;
+    color: rgb(177, 20, 20);
+}
+.about-menu{
+    height: 100px;
+    width: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
