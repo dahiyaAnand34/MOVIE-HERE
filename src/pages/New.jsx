@@ -29,6 +29,8 @@ function New() {
                                 RATING {movie.vote_average}
                             </p>
 
+                            <p id="dateR">RELEASE {movie.release_date}</p>
+
                             <a
                                 href={`https://www.youtube.com/watch?v=${movie.key}`}
                                 target="_blank"
